@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+
+    <style>
+      h1 {
+        font-family: 'Lobster', cursive;
+      }
+      header {
+        background-image: url("https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80");
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-cover">
+      <div class="max-w-3xl mx-8 lg:mx-auto py-72">
+        <h1 class="inline-block text-4xl lg:text-7xl text-white bg-green-400 px-8 py-4">Emma's Garden</h1>
+        <p class="text-white font-mono font-bold mt-8">
+          All dishes are green for you.<br />You may let down worrying about red dishes here.
+        </p>
+        <a href="#">
+          <button class="px-12 py-4 mt-16 bg-white rounded-full shadow-xl font-black" >
+            Book a table
+          </button>
+        </a>
+        
+      </div>
+    </header>
+    <section>
+      <div class="max-w-3xl mx-auto py-36 text-center">
+        <h1 class="text-3xl lg:text-5xl">Our prides this season</h1>
+        <div class="mt-32">
+          <ul class="grid grid-cols-1 lg:grid-cols-2 gap-20 mx-16">
+            <li class="relative rounded-full overflow-hidden shadow-xl transition duration-500 ease-in-out hover:shadow-none">
+              <img class="w-full h-full " src="https://images.unsplash.com/photo-1614514710295-129a2e3bbf24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1250&q=80" alt="">
+              <p class="absolute w-full h-full left-0 top-0 bg-black bg-opacity-70 opacity-0 hover:opacity-100 text-white m-auto pt-32 text-xl font-mono rounded-full transition duration-500 ease-in-out">
+                Crispy Baked Falafel
+              </p>
+            </li>
+            <li class="relative rounded-full overflow-hidden shadow-xl transition duration-500 ease-in-out hover:shadow-none">
+              <img class="w-full h-full " src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80" alt="">
+              <p class="absolute w-full h-full left-0 top-0 bg-black bg-opacity-70 opacity-0 hover:opacity-100 text-white m-auto pt-32 text-xl font-mono rounded-full transition duration-500 ease-in-out">
+                Best Lentil Soup
+              </p>
+            </li>
+            <li class="relative rounded-full overflow-hidden shadow-xl transition duration-500 ease-in-out hover:shadow-none">
+              <img class="w-full h-full " src="https://images.unsplash.com/photo-1512058533999-106ee01bf777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1246&q=80" alt="">
+              <p class="absolute w-full h-full left-0 top-0 bg-black bg-opacity-70 opacity-0 hover:opacity-100 text-white m-auto pt-32 text-xl font-mono rounded-full transition duration-500 ease-in-out">
+                Vegetable Paella
+              </p>
+            </li>
+            <li class="relative rounded-full overflow-hidden shadow-xl transition duration-500 ease-in-out hover:shadow-none">
+              <img class="w-full h-full " src="https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80" alt="">
+              <p class="absolute w-full h-full left-0 top-0 bg-black bg-opacity-70 opacity-0 hover:opacity-100 text-white m-auto pt-32 text-xl font-mono rounded-full transition duration-500 ease-in-out">
+                Classic Minestrone Soup
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-black">
+      <div class="max-w-3xl mx-auto py-36 flex flex-col lg:flex-row justify-between items-center">
+        <div class="text-white font-serif">Emma's Green</div>
+        <div class="text-white font-sans text-xs">1 Clare Market, London WC2E 8RA, United Kingdom</div>
+      </div>
+    </footer>
+  </body>
+</html>

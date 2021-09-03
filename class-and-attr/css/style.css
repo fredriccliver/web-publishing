@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
+
+#header-container {
+  display: relative;
+  height: 600px;
+  
+
+  /* background-image: url("https://i.imgur.com/QdMWFHZ.jpg") */
+  background: url('https://images.unsplash.com/photo-1521917441209-e886f0404a7b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2500&q=80');
+}
+
+container {
+  width: 100%;
+}
+
+.content-box {
+  text-align: center;
+  padding-top: 120px; 
+  color: white;
+  font-size: 40px;
+  max-width: 1080px;
+  
+  /* top right bottom left */
+  margin: 0px auto 0px auto;
+}
+
+.content-box p {
+  font-size: large;
+  padding: 0px 20px 0px 20px;
+}
